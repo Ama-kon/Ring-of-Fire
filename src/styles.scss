@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+}
+
+body {
+    background: rgb(152, 22, 59);
+    background: radial-gradient(circle, rgba(152, 22, 59, 1) 0%, rgba(121, 9, 26, 1) 55%, rgba(77, 32, 39, 1) 100%);
+}
+
+@mixin dFlex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
