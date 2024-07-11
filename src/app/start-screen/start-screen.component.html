@@ -1,0 +1,27 @@
+<div class="start-screen">
+  <img src="/assets/img/background-start-screen.JPG" alt="Start image" />
+  <div class="start-label-box">
+    <img src="/assets/img/ribbon.png" alt="ribbon image" />
+    <svg
+      (click)="newGame()"
+      width="500"
+      height="200"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        id="curve"
+        d="M 10 100 Q 250 150 490 100"
+        fill="transparent"
+        stroke="transparent"
+      />
+
+      <text font-size="45" fill="3F3A3B">
+        <textPath href="#curve" startOffset="50%" text-anchor="middle">
+          Start Game
+        </textPath>
+      </text>
+    </svg>
+  </div>
+</div>
+
+<h1>Ring Of Fire</h1>
