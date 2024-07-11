@@ -1,0 +1,41 @@
+@import "./../../styles.scss";
+
+.start-screen {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    position: absolute;
+    background: rgb(126, 124, 124);
+    background: radial-gradient(
+        circle,
+        rgba(126, 124, 124, 1) 26%,
+        rgba(77, 74, 74, 1) 57%,
+        rgba(25, 24, 24, 0.9248074229691877) 100%
+    );
+    @include dFlex();
+    > img {
+        width: 100vw;
+        height: 80vh;
+    }
+}
+
+.start-label-box {
+    position: absolute;
+    top: 55vh;
+    @include dFlex();
+    flex-direction: column;
+    &:hover {
+        filter: drop-shadow(2px 4px 6px black) brightness(1.2);
+    }
+    > img {
+        cursor: pointer;
+        width: 55vw;
+        height: 30vh;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    svg {
+        z-index: 10;
+        margin-top: -235px;
+        cursor: pointer;
+    }
+}
