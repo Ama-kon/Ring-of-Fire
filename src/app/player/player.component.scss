@@ -1,0 +1,19 @@
+@import "./../../styles.scss";
+
+.player {
+    background-color: #cb7676;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 120px;
+    @include dFlex;
+    justify-content: flex-start;
+    gap: 5%;
+    img {
+        width: 20%;
+        border: 2px solid rgb(241 178 178);
+        border-radius: 50%;
+    }
+    span {
+        font-size: 32px;
+        color: whitesmoke;
+    }
+}
