@@ -8,12 +8,21 @@
     justify-content: flex-start;
     gap: 5%;
     img {
-        width: 20%;
+        width: 50px;
         border: 2px solid rgb(241 178 178);
         border-radius: 50%;
     }
     span {
         font-size: 32px;
         color: whitesmoke;
+    }
+}
+
+.player-active {
+    background-color: #d3255e;
+    img {
+        width: 60px;
+        border: 2px solid white;
+        border-radius: 50%;
     }
 }
