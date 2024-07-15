@@ -3,7 +3,7 @@
 .position {
     position: absolute;
     right: 0;
-    width: 30%;
+    width: 20%;
 }
 
 .gamefield {
@@ -52,4 +52,19 @@
     100% {
         transform: scale(1.3) translateX(-140px) translateY(-200px) rotate(-10deg);
     }
+}
+
+.btn-add {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.info-card {
+    position: absolute;
+    width: 70vw;
+    height: 10vh;
+    bottom: 15px;
+    left: 15%;
+    right: 15%;
 }
